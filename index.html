@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" contents="IE-edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Computer Store </title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="theBank.js"></script>
+      <script src="computers.js"></script>
+   </head>
+   <body>
+      <header>
+      <h3 class="headerText">Komputer Store</h3>
+   </header>
+      <div class="container">
+         <div class="item1">
+            <h4> Joe Banker </h4>
+            <span class="names"> Balance: </span>
+            <div id="currentBalance"></div>
+            <span> Loan: </span>
+            <div id="currentLoan"></div>
+            <input type="button" id="getALoanButton" value="Get a Loan" onClick="calculateLoan()">
+         </div>
+         <div class="item2">
+            <h4>Work</h4>
+            <span> Pay: </span>
+            <div id="currentPay"></div>
+            <input type="button" id="bankButton" value="Bank" onClick="bankMoney()">
+            <input type="button" id="workButton" value="Work" onClick="addMoneyToAccount()">
+            <input type="button" id="repayLoanButton" value="Loan" onClick="repayLoan()">
+         </div>
+         <div class="item3">
+            <h4>Laptops</h4>
+               <select name="laptops" id="laptops">
+               </select>
+         </div>
+      </div>
+   </body>
+</html>

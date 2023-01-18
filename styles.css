@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+header {
+    background-color: #2d2d2d;
+    padding: 0.5rem;
+}
+
+.headerText {
+    color: aliceblue;
+    font-size: large;
+    padding-left: 4rem;
+    font-style: normal;
+}
+
+.names {
+    white-space: nowrap;
+}
+
+.item1 {
+    background-color: lightgoldenrodyellow;
+    justify-content: space-between;
+    text-align: center;
+    width: 10rem;
+    height: 5rem;
+    padding: 6rem 3rem;
+    font-size: medium;
+    font-family: monospace;
+}
+
+.item2 {
+    background-color: lightgoldenrodyellow;
+    justify-content: space-around;
+    text-align: center;
+    width: 10rem;
+    height: 5rem;
+    padding: 6rem 3rem;
+    font-size: medium;
+    font-family: monospace;
+}
+
+.item3 {
+    background-color: lightgoldenrodyellow;
+    justify-content: space-around;
+    text-align: center;
+    width: 10rem;
+    height: 5rem;
+    padding: 6rem 3rem;
+    font-size: medium;
+    font-family: monospace;
+}
+
+
+#getALoanButton {
+    background-color: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+#bankButton {
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: monospace;
+
+}
+
+#workButton {
+    background-color: palevioletred;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: monospace;
+
+}
