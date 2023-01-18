@@ -6,35 +6,48 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> Computer Store </title>
       <link rel="stylesheet" href="styles.css">
-      <script src="theBank.js"></script>
-      <script src="computers.js"></script>
+      <script src="theBankAndWork.js" defer></script>
+      <script src="laptops.js" defer></script>
    </head>
    <body>
       <header>
-      <h3 class="headerText">Komputer Store</h3>
-   </header>
+         <h3 class="headerText">Komputer Store</h3>
+      </header>
       <div class="container">
          <div class="item1">
             <h4> Joe Banker </h4>
-            <span class="names"> Balance: </span>
+            <span class="elements"> Balance in €: </span>
             <div id="currentBalance"></div>
-            <span> Loan: </span>
+            <span class="elements"> Loan in €: </span>
             <div id="currentLoan"></div>
-            <input type="button" id="getALoanButton" value="Get a Loan" onClick="calculateLoan()">
+            <input type="button" id="getALoanButton" value="GET A LOAN" onClick="calculateLoan()">
          </div>
          <div class="item2">
             <h4>Work</h4>
-            <span> Pay: </span>
+            <span class="elements"> Pay in €: </span>
             <div id="currentPay"></div>
-            <input type="button" id="bankButton" value="Bank" onClick="bankMoney()">
-            <input type="button" id="workButton" value="Work" onClick="addMoneyToAccount()">
-            <input type="button" id="repayLoanButton" value="Loan" onClick="repayLoan()">
+            <input type="button" id="bankButton" value="BANK" onClick="bankMoney()">
+            <input type="button" id="workButton" value="WORK" onClick="addMoneyToAccount()">
+            <input type="button" id="repayLoanButton" value="REPAY LOAN" onClick="repayLoan()">
          </div>
          <div class="item3">
             <h4>Laptops</h4>
-               <select name="laptops" id="laptops">
-               </select>
+            <select name="laptops" id="laptops">
+            </select>
+            <span> Features: </span>
+            <div id="specs"></div>
          </div>
+      </div>
+      <div class="item4">
+         <div id="chosenLaptopTitle"></div>
+         <div id="chosenLaptopDescription"></div>
+         <span class="price">
+            Price in €:
+            <div id="chosenLaptopPrice"></div>
+         </span>
+         <div id="chosenLaptopPrice"></div>
+         <img id="chosenLaptopPic"/> 
+         <input type="button" id="buyButton" value="BUY NOW" onClick="buyLaptop()">
       </div>
    </body>
 </html>

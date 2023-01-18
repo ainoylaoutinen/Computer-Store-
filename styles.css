@@ -17,19 +17,29 @@ header {
     font-style: normal;
 }
 
-.names {
-    white-space: nowrap;
+.elements {
+    float: left;
 }
+
+.features {
+    white-space: nowrap;
+    font-size: small;
+}
+
 
 .item1 {
     background-color: lightgoldenrodyellow;
     justify-content: space-between;
+    white-space: nowrap;
     text-align: center;
     width: 10rem;
     height: 5rem;
-    padding: 6rem 3rem;
-    font-size: medium;
-    font-family: monospace;
+    padding-bottom: 6rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .item2 {
@@ -38,9 +48,12 @@ header {
     text-align: center;
     width: 10rem;
     height: 5rem;
-    padding: 6rem 3rem;
-    font-size: medium;
-    font-family: monospace;
+    padding-bottom: 6rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;    
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .item3 {
@@ -49,9 +62,26 @@ header {
     text-align: center;
     width: 10rem;
     height: 5rem;
-    padding: 6rem 3rem;
-    font-size: medium;
-    font-family: monospace;
+    padding-bottom: 6rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;    
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item4 {
+    background-color: lightgoldenrodyellow;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 360px;
+    width: 30rem;
+    height: 5rem;
+    padding-bottom: 10rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -61,8 +91,8 @@ header {
     padding: 10px 20px;
     border-radius: 8px;
     text-align: center;
-    font-family: monospace;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
 }
 
 #bankButton {
@@ -71,8 +101,8 @@ header {
     padding: 10px 20px;
     text-align: center;
     border-radius: 8px;
-    font-family: monospace;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
 }
 
 #workButton {
@@ -81,6 +111,49 @@ header {
     padding: 10px 20px;
     text-align: center;
     border-radius: 8px;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
 
+#repayLoanButton {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+#buyButton {
+    background-color: lightpink;
+    float: right;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#specs {
+    font-size: x-small;
+}
+
+#chosenLaptopTitle {
+    font-size: x-large;
+}
+
+#chosenLaptopDescription {
+    font-size: small;
+}
+
+#chosenLaptopPrice {
+    font-size: large;
+}
+
+#chosenLaptopPic {
+    float: left;
+    width: 150px;
+    height: 150px;
 }
